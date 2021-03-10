@@ -1,0 +1,103 @@
+#################### Banner #####################
+banner:
+  enable : true
+  title : "Centro de Acción Climática PUCV"
+  content : "Centro dedicado a fomentar la acción climática a toda escala, informando a autoridades y ciudadanos."
+  image : "images/hero-image/hero-slider-01.jpg"
+  button:
+    enable : false
+    label : "Sobre el Centro"
+    link : "#mission"
+
+#################### Mission #####################
+mission:
+  enable : true
+  title : "Nuestro objetivo"
+  section : "MISIÓN"
+  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu eros et libero consectetur tempus at vitae dolor. Ut eget mattis nulla, vitae bibendum lorem. Aenean ut sem massa. Nulla lectus tortor, molestie at dapibus sed, aliquet quis ante. Vestibulum."
+  video_thumb: "images/video-thumb.jpg"
+  video_id: "VfWSrG7vITM"
+
+
+#################### Vission #####################
+vision:
+  enable : true
+  section : "NOTICIAS"
+  vision_item:
+  - title : "Título 1"
+    image : "images/vision/vision-01.jpg"
+    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum in tellus in fermentum."
+    
+  - title : "Título 2"
+    image : "images/vision/vision-02.jpg"
+    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum in tellus in fermentum."
+    
+  - title : "Título 3"
+    image : "images/vision/vision-03.jpg"
+    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum in tellus in fermentum."
+
+
+#################### product ####################
+product:
+  enable : true
+  section : "EQUIPO"
+  title : "Nuestro equipo"
+  content : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum in tellus in fermentum. Aliquam convallis risus ac euismod imperdiet."
+  product_item:
+  - title : "Marcelo Mena"
+    image : "images/product/marcelo.jpg"
+    content : "Director e Investigador"
+    project_url : "https://www.linkedin.com/in/marcelo-mena-87a02914/"
+
+  - title : "Alexandre Sánchez"
+    image : "images/product/alexandre.jpg"
+    content : "Coordinador"
+    project_url : "https://www.linkedin.com/in/alexandre-s-096514188/"  
+
+  - title : "Sebastián Crespo"
+    image : "images/product/sebastian.jpg"
+    content : "Investigador"
+    project_url : "https://www.linkedin.com/in/sebastian-andr%C3%A9s-crespo-oliva-2520371aa/"
+
+  - title : "Ariel Muñoz"
+    image : "images/product/ariel.jpg"
+    content : "Investigador"
+    project_url : "https://www.linkedin.com/in/ariel-mu%C3%B1oz-24b43468/"
+
+  - title : "Yunesky Masip"
+    image : "images/product/yunesky.jpg"
+    content : "Investigador"
+    project_url : ""
+
+  - title : "Daniela León"
+    image : "images/product/daniela.jpg"
+    content : "Periodista"
+    project_url : "https://www.linkedin.com/in/daniela-le%C3%B3n-miranda-4969b842/"
+
+  - title : "Justinne Rybertt"
+    image : "images/product/justinne.jpg"
+    content : "Investigadora"
+    project_url : "https://www.linkedin.com/in/justinne-rybertt-goldammer-ge%C3%B3loga/"
+
+  - title : "Vicente Gajardo"
+    image : "images/product/vicente.jpg"
+    content : "Investigador"
+    project_url : "https://www.linkedin.com/in/vicente-gajardo-rojas-a15114167/"
+    
+
+
+###################### Contact ####################
+contact:
+  enable : true
+  section : "CONTACTO"
+  title : "Escríbenos"
+  image : "images/map-bg.jpg"
+  content : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum in tellus in fermentum. Aliquam convallis risus ac euismod imperdiet."
+
+  
+################### call to action #################
+call_to_action:
+  enable : true
+  title : "Revisa nuestras herramientas climáticas: <br>Ingresa y conoce la Plataforma Red de Monitoreo de Aire"
+  button_label : "Red Monitoreo de Aire"
+  button_link : "career"

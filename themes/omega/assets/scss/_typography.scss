@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+body {
+  line-height: 1.5;
+  font-family: $secondary-font;
+  -webkit-font-smoothing: antialiased;
+}
+p {
+  font-family: $secondary-font;
+  color: $text-color;
+  font-size:16px;
+  letter-spacing: 1px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: $primary-font;
+  color: $text-color;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight:600;
+}
+
+// h1 {
+//   font-size: 45px;
+// }
+// h2 {
+// 	font-size:34px;
+// }
+// h3 {
+// 	font-size:20px;
+// }
+// h4 {
+// 	font-size:16px;
+// }
+// h6{
+//   font-size: 18px;
+// }
+
+label{
+  font-size: 15px;
+  margin-bottom: 5px;
+}

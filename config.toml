@@ -1,0 +1,80 @@
+######################## default configuration ####################
+baseURL = "https://examplesite.com"
+title = "Centro Acción Climática PUCV"
+theme = "omega"
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+[markup.goldmark.renderer]
+unsafe= true
+
+######################### navigation ##############################
+
+[[menu.main]]
+name = "Sobre el Centro"
+pre = "#"
+URL = "mission"
+weight = 1
+
+[[menu.main]]
+name = "Equipo"
+pre = "#"
+URL = "products"
+weight = 2
+
+[[menu.main]]
+name = "Monitoreo Aire"
+pre = ""
+URL = "career"
+weight = 3
+
+[[menu.main]]
+name = "Plataforma de Riesgo"
+pre = ""
+URL = "career"
+weight = 4
+
+[[menu.main]]
+name = "Noticias"
+pre = ""
+URL = "career"
+weight = 5
+
+[[menu.main]]
+name = "Contacto"
+pre = "#"
+URL = "contact"
+weight = 6
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo-cac.svg"
+logo_width = "300px"
+# Meta data
+description = "Centro de Acción Climática PUCV - Centro dedicado a fomentar la acción climática a toda escala, informando a autoridades y ciudadanos"
+author = "Centro de Acción Climática PUCV"
+# contact info
+contact_info = "Antonio Bellet 314<br>Providencia<br>Región Metropolitana"
+# Preloader
+preloader = true
+# google map
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDcYmkpfUJlz82RUknm_QR07ZBtmATaViE"
+map_center_lat = "-33.424609014672505"
+map_center_lng = "-70.62582726335388"
+map_position_lat = "-33.4247638"
+map_position_lng = "-70.6213848"
+map_marker = "images/map-marker.png"
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+############################# social site ########################
+
+[[params.social]]
+title = "twitter"
+icon = "fa-twitter" # fontawesome icon pack v4.7 https://fontawesome.com/v4.7.0/icons/
+link = "https://twitter.com/accionclimapucv"
