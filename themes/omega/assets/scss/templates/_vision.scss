@@ -44,7 +44,6 @@
     position: relative;
     z-index: 6;
     &::before{
-        content: 'CENTRO ACCIÓN CLIMÁTICA';
         font-family: $secondary-font;
         position: absolute;
         top: 18%;
@@ -69,7 +68,7 @@
                 margin-bottom: 30px;
             }
         }
-        &:nth-child(2){
+        &:nth-child(2),&:nth-child(4){
             transform: translateX(552px);
             @include desktop-lg{
                 transform: translateX(150px);
@@ -89,6 +88,7 @@
             position: relative;
             max-width: 400px;
             overflow: hidden;
+            opacity: 35%;
             // @extend .image-reveal;
             img{
                 width: 100%;

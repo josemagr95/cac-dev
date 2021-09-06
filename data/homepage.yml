@@ -2,7 +2,8 @@
 banner:
   enable : true
   title : "Centro de Acción Climática PUCV"
-  content : "Centro dedicado a fomentar la acción climática a toda escala, informando a autoridades y ciudadanos."
+  content1 : "Centro de investigación orientado a impulsar acciones climáticas"
+  content2 : "que contribuyan a la resiliencia climática a nivel, nacional regional y local"
   image : "images/hero-image/hero-slider-01.jpg"
   button:
     enable : false
@@ -12,9 +13,9 @@ banner:
 #################### Mission #####################
 mission:
   enable : true
-  title : "Nuestro objetivo"
-  section : "MISIÓN"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu eros et libero consectetur tempus at vitae dolor. Ut eget mattis nulla, vitae bibendum lorem. Aenean ut sem massa. Nulla lectus tortor, molestie at dapibus sed, aliquet quis ante. Vestibulum."
+  title : "El Centro de Acción Climática - PUCV"
+  section : "NOSOTROS"
+  content : "El Centro de Acción Climática para el desarrollo de investigación aplicada en adaptación climática a nivel nacional y regional (ESR UCV2095), un centro de excelencia creado en septiembre de 2020, para aportar a la preparación de la región y el país para enfrentar la actual crisis climática."
   video_thumb: "images/video-thumb.jpg"
   video_id: "VfWSrG7vITM"
 
@@ -22,25 +23,31 @@ mission:
 #################### Vission #####################
 vision:
   enable : true
-  section : "NOTICIAS"
+  section : "OBJETIVOS"
+  content2 : "El Centro de Acción Climática PUCV cuenta con un equipo de investigadores de disciplinas tales como ingeniería ambiental, geografía, hidrología, glaciología, ecología, bioquímica, biotecnología, derecho, educación STEM, ciencias sociales, y comunicaciones, que otorgan una visión multidimensional e integral para abordar los desafíos climáticos actuales y fortalecer la resiliencia climática desde la academia."
+  content3 : "La Región de Valparaíso es la más vulnerable del país a los efectos del cambio climático, según datos del Ministerio del Medio Ambiente (2016). Para el 2050, se estima que la región aumentaría su temperatura hasta en 2.2 °C en promedio, su precipitación disminuiría en un 17% y el flujo del Río Aconcagua descendería hasta un 40%, agravando la actual escasez hídrica. Los incendios forestales y el aumento de las marejadas costeras refuerzan la idea de las múltiples amenazas que enfrenta la región."
   vision_item:
   - title : "Título 1"
     image : "images/vision/vision-01.jpg"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum in tellus in fermentum."
+    content : "Formalizar el Centro de Acción Climática y articular su quehacer con actores relevantes."
     
   - title : "Título 2"
     image : "images/vision/vision-02.jpg"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum in tellus in fermentum."
+    content : "Promover la acción climática dentro del contenido curricular en la educación secundaria, pregrado y postgrado e impulsar la creación de instancias de capacitación para docentes."
     
   - title : "Título 3"
     image : "images/vision/vision-03.jpg"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum in tellus in fermentum."
+    content : "Desarrollar investigación científica aplicada orientada a la generación de propuestas concretas de dad de apoyar planes de adaptación al cambio climático a nivel regional, local y sectorial, en colaboración con entes públicos y privados."
+
+  - title : "Título 4"
+    image : "images/vision/vision-04.jpg"
+    content : "Divulgar información sobre acción climática entre la sociedad civil y apoyar la creación de políticas públicas en colaboración con el Poder Ejecutivo y Legislativo."
 
 
 #################### product ####################
 product:
   enable : true
-  section : "EQUIPO"
+  section : "INVESTIGADORES"
   title : "Nuestro equipo"
   content : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum in tellus in fermentum. Aliquam convallis risus ac euismod imperdiet."
   product_item:
@@ -48,26 +55,30 @@ product:
     image : "images/product/marcelo.jpg"
     content : "Director e Investigador"
     project_url : "https://www.linkedin.com/in/marcelo-mena-87a02914/"
-
-  - title : "Alexandre Sánchez"
-    image : "images/product/alexandre.jpg"
-    content : "Coordinador"
-    project_url : "https://www.linkedin.com/in/alexandre-s-096514188/"  
-
-  - title : "Sebastián Crespo"
-    image : "images/product/sebastian.jpg"
-    content : "Investigador"
-    project_url : "https://www.linkedin.com/in/sebastian-andr%C3%A9s-crespo-oliva-2520371aa/"
-
   - title : "Ariel Muñoz"
     image : "images/product/ariel.jpg"
     content : "Investigador"
     project_url : "https://www.linkedin.com/in/ariel-mu%C3%B1oz-24b43468/"
 
+  - title : "Sebastián Crespo"
+    image : "images/product/sebastian.jpg"
+    content : "Investigador"
+    project_url : "https://www.linkedin.com/in/sebastian-andr%C3%A9s-crespo-oliva-2520371aa/"
+    
+  - title : "Juan Luis Celis"
+    image : ""
+    content : ""
+    project_url : ""  
+
   - title : "Yunesky Masip"
     image : "images/product/yunesky.jpg"
     content : "Investigador"
     project_url : ""
+
+  - title : "Alexandre Sánchez"
+    image : "images/product/alexandre.jpg"
+    content : "Coordinador"
+    project_url : "https://www.linkedin.com/in/alexandre-s-096514188/"  
 
   - title : "Daniela León"
     image : "images/product/daniela.jpg"

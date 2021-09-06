@@ -14,17 +14,20 @@
             <div class="content">
               <h2>
                 <span class="rev">
-                  {{.title | markdownify}}
+                  {{.content1 | markdownify}}
+                </span>
+                <span class="rev">
+                  {{.content2 | markdownify}}
                 </span>
               </h2>
-              <h3>{{ .content | markdownify }}</h3>
+
               {{ if .button.enable }}
               {{ with .button }}
               <a href="#mission" class="hero-btn btn page-scroll">{{.label}}</a>
               {{ end }}
               {{ end }}
-              <div class="my-5 mx-4">
-                <img class="img-fluid" width="180px" src="images/logo-pucv.svg" alt="">
+              <div class="my-5">
+                <img class="img-fluid my-5" width="180px" src="images/logo-pucv.svg" alt="">
               </div>
             </div>
           </div>
@@ -43,7 +46,7 @@
 
 {{ if site.Data.homepage.mission.enable }}
 {{ with site.Data.homepage.mission }}
-<section class="mission" id="mission">
+<section class="mission" id="nosotros">
   <div class="bg">
     <img src="{{`images/section-bg.jpg` | absURL}}" class="img-fluid" alt="section-bg">
   </div>
@@ -78,7 +81,7 @@
 
 {{ if site.Data.homepage.vision.enable }}
 {{ with site.Data.homepage.vision }}
-<section class="vision">
+<section class="vision" id="objetivos">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -92,12 +95,17 @@
               <img src="{{ .image | absURL }}" class="img-fluid" alt="vision-thumb">
             </div>
             <div class="text-content">
-              <h3>{{ .title | markdownify }}</h3>
               <p>{{ .content | markdownify}}</p>
             </div>
           </div>
           {{ end }}
         </div>
+      </div>
+      <div class="mission-content my-5">
+        <p>{{ .content2 | markdownify }}</p>
+      </div>
+      <div class="mission-content my-5">
+        <p>{{ .content3 | markdownify }}</p>
       </div>
     </div>
   </div>
@@ -184,7 +192,7 @@
       <div class="contents">
         <img src="{{ .image |absURL}}" alt="office">
         <div class="address">
-          <h2 class="py-3 px-3" style="background-color: #1B5948;">{{ site.Params.contact_info | markdownify}}</h2>
+          <h2 class="py-3 px-3" style="background-color: #121212;">{{ site.Params.contact_info | markdownify}}</h2>
           <ul class="social-list list-inline">
             {{ range site.Params.social }}
             <li class="list-inline-item">

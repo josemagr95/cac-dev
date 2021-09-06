@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://cacpucv-dev.github.io/beta/"
 title = "Centro Acción Climática PUCV"
 theme = "omega"
 # google analytics
@@ -10,48 +10,48 @@ unsafe= true
 ######################### navigation ##############################
 
 [[menu.main]]
-name = "Sobre el Centro"
+name = "Nosotros"
 pre = "#"
-URL = "mission"
+URL = "nosotros"
 weight = 1
 
 [[menu.main]]
-name = "Equipo"
+name = "Investigación"
 pre = "#"
-URL = "products"
+URL = "#"
 weight = 2
 
 [[menu.main]]
-name = "Monitoreo Aire"
+name = "Proyectos"
 pre = ""
-URL = "career"
+URL = "#"
 weight = 3
 
 [[menu.main]]
-name = "Plataforma de Riesgo"
+name = "Publicaciones"
 pre = ""
-URL = "career"
+URL = "#"
 weight = 4
 
 [[menu.main]]
-name = "Noticias"
+name = "Divulgación"
 pre = ""
-URL = "career"
+URL = "#"
 weight = 5
 
 [[menu.main]]
-name = "Contacto"
+name = "Actividades"
 pre = "#"
-URL = "contact"
+URL = "#"
 weight = 6
 
 
 #################### default parameters ################################
 [params]
-logo = "images/logo-cac.svg"
-logo_width = "300px"
+logo = "images/logo-cac-pucv.svg"
+logo_width = "400px"
 # Meta data
-description = "Centro de Acción Climática PUCV - Centro dedicado a fomentar la acción climática a toda escala, informando a autoridades y ciudadanos"
+description = "Centro de Acción Climática PUCV - Centro de investigación orientado a impulsar acciones climáticas que contribuyan a la resiliencia climática a nivel, nacional regional y local."
 author = "Centro de Acción Climática PUCV"
 # contact info
 contact_info = "Antonio Bellet 314<br>Providencia<br>Región Metropolitana"
