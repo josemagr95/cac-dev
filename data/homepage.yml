@@ -108,7 +108,7 @@ contact:
   
 ################### call to action #################
 call_to_action:
-  enable : true
+  enable : false
   title : "Revisa nuestras herramientas climáticas: <br>Ingresa y conoce la Plataforma Red de Monitoreo de Aire"
   button_label : "Red Monitoreo de Aire"
   button_link : "career"
